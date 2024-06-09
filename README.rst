@@ -21,7 +21,7 @@ A collection of tools for making it easier to use pyScss within Django.
 Installation
 ============
 
-django-pyscss supports Django 1.4+, and Pythons 2 and 3.
+django-pyscss supports Django 1.4+, and Python 3.
 
 You may install django-pyscss off of PyPI::
 

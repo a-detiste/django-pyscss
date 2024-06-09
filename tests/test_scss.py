@@ -1,6 +1,6 @@
 import os
 import re
-import mock
+from unittest import mock
 
 from django.test import TestCase
 from django.conf import settings
@@ -44,7 +44,7 @@ with open(os.path.join(settings.BASE_DIR, 'testproject', 'static', 'css', 'dot.f
     DOT_FILE_CONTENTS = f.read()
 
 
-class CompilerTestMixin(object):
+class CompilerTestMixin:
     def setUp(self):
         self.compiler = DjangoScssCompiler()
         super(CompilerTestMixin, self).setUp()

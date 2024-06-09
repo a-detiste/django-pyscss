@@ -1,5 +1,3 @@
-from __future__ import absolute_import
-
 import os
 from pathlib import PurePath
 from io import StringIO

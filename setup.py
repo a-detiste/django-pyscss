@@ -23,7 +23,6 @@ tests_require = [
     'Pillow',
     'django-compressor>=1.3',
     'django-discover-runner',
-    'mock',
 ]
 
 
@@ -52,8 +51,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Topic :: Internet :: WWW/HTTP',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
     ],
